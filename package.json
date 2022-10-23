@@ -4,7 +4,8 @@
   "description": "cloud class project that implemented with html, css, tailwindcss",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i ./css/index.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
