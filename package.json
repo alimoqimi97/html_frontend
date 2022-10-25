@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/alimoqimi97/html_frontend#readme",
   "devDependencies": {
-    "tailwindcss": "^3.2.1"
+    "tailwindcss": "^3.2.1",
+    "tailwindcss-dir": "^4.0.0"
   }
 }
