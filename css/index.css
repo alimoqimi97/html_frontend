@@ -302,16 +302,22 @@ p.PACKAGE-package-name {
 
 
 .PACKAGE-send-file {
-    @apply bg-white rounded-[0.32rem] flex justify-between mt-10;
+    @apply bg-white rounded-[0.32rem] flex justify-between mt-10 pt-[1.1875rem] pb-[1.0625rem] items-center pr-[1.0625rem] pl-3;
     box-shadow: 1px 4px 24px #D4E2ED, -3px 4px 0px #D4E2ED;
 }
+
 .PACKAGE-send-file button {
-    @apply bg-[#007BDA] rounded-[0.15rem] w-[28.2%] not-italic font-bold text-[0.6875rem] leading-[1.0625rem] text-center text-white ;
+    @apply bg-[#007BDA] rounded-[0.15rem] w-[28.2%] h-[1.875rem] not-italic font-bold text-[0.6875rem] leading-[1.0625rem] text-center text-white ;
+}
+
+.PACKAGE-send-file .PACKAGE-select-file-text {
+    @apply w-[41.6%];
 }
 
 .PACKAGE-send-file .PACKAGE-select-file-text h1 {
     @apply not-italic font-normal text-[0.69rem] leading-[1.0625rem] text-center text-black;
 }
+
 
 .PACKAGE-send-file .PACKAGE-select-file-text p {
     @apply not-italic font-normal text-[0.57rem] leading-[0.875rem] text-center;
