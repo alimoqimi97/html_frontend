@@ -9,6 +9,10 @@
   button {
     @apply md:bg-red-600 rounded bg-transparent;
   }
+  @font-face {
+    font-family: yekanBakh;
+    src: url(../assets/fonts/Yekan_Bakh_FaNum_04_Regular.ttf);
+  }
 }
 
 @layer components {

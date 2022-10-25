@@ -433,6 +433,12 @@ button {
   }
 }
 
+@font-face {
+  font-family: yekanBakh;
+
+  src: url(../assets/fonts/Yekan_Bakh_FaNum_04_Regular.ttf);
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
