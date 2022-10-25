@@ -171,7 +171,7 @@
     @apply grid grid-cols-3  gap-2 sm:gap-4 sm:mt-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-7;
   }
   .class_tabs .tab-items li {
-    @apply text-center border shadow-[#1263a1] shadow-sm border-[#1263a1] text-sm sm:text-base text-[#1263a1] rounded-3xl pb-1 pt-0.5;
+    @apply text-center justify-start border shadow-[-1px_2px_0px_rgba(184,209,227,1)] border-[#1263a1] text-sm sm:text-base text-[#1263a1] rounded-3xl pb-1 pt-0.5;
   }
   .class_suggestedPack {
     @apply mt-8 -mr-2;

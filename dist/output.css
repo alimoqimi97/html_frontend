@@ -1156,6 +1156,7 @@ button {
 }
 
 .class_tabs .tab-items li {
+  justify-content: flex-start;
   border-radius: 1.5rem;
   border-width: 1px;
   --tw-border-opacity: 1;
@@ -1166,11 +1167,9 @@ button {
   font-size: 0.8rem;
   --tw-text-opacity: 1;
   color: rgb(18 99 161 / var(--tw-text-opacity));
-  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  --tw-shadow: -1px 2px 0px rgba(184,209,227,1);
+  --tw-shadow-colored: -1px 2px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  --tw-shadow-color: #1263a1;
-  --tw-shadow: var(--tw-shadow-colored);
 }
 
 @media (min-width: 480px) {
