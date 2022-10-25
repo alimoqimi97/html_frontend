@@ -307,7 +307,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-send-file button {
-    @apply bg-[#007BDA] rounded-[0.15rem] w-[28.2%] h-[1.875rem] not-italic font-bold text-[0.6875rem] leading-[1.0625rem] text-center text-white ;
+    @apply bg-[#007BDA] rounded-[0.15rem] w-[30.8%] h-[1.875rem] not-italic font-bold text-[0.6875rem] leading-[1.0625rem] text-center text-white ;
 }
 
 .PACKAGE-send-file .PACKAGE-select-file-text {
@@ -328,5 +328,63 @@ p.PACKAGE-package-name {
     @apply w-[13.1%];
 }
 
+.PACKAGE-point-of-view {
+    @apply mt-10;
+}
+
+.PACKAGE-point-of-view h1{
+    @apply not-italic font-normal text-[0.9375rem] leading-[1.4375rem] text-[#195E8E] text-right mb-[2.3125rem];
+}
+
+.PACKAGE-point-of-view  #pointOfView {
+    @apply bg-white w-full shadow-[inset_-1px_3px_2px_#D4E2ED] rounded-[0.625rem] pt-[1.875rem] pr-[1.5625rem] pl-[1.0625rem] pb-8;
+}
+
+
+.PACKAGE-point-of-view .PACKAGE-send-view {
+    @apply bg-[#007BDA] rounded-[0.15rem] w-[28.2%] h-[1.875rem] not-italic font-bold text-[0.6875rem] leading-[1.0625rem] text-center text-white;
+}
+
+
+.PACKAGE-user-comments {
+    @apply flex flex-col w-full;
+}
+
+.PACKAGE-user-comments .PACKAGE-comment{
+    @apply w-full bg-white rounded-[0.3125rem] pt-3 pr-[1.0625rem] pb-[0.8125rem] pl-3;
+    box-shadow: -4px 3px 0px rgba(212, 226, 237, 0.25), 0px -1px 28px #D4E2ED;
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-title {
+    @apply w-full flex justify-between;
+}
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-title h3 {
+    @apply not-italic font-bold text-[0.9375rem] leading-[1.4375rem] text-right text-[#402F2F];
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-title p {
+    @apply not-italic font-normal text-[0.625rem] leading-[0.9375rem] text-right text-[#808080];
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-grade {
+    @apply not-italic font-normal text-[0.8125rem] leading-5 text-right text-[#808080];
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comment-content {
+    @apply not-italic font-light text-[0.711rem] leading-[1.125rem] text-black text-justify;
+    
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions {
+    @apply flex gap-x-3 flex-row-reverse justify-start  items-center;
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-reply{
+    @apply flex justify-between gap-x-[0.34rem] not-italic font-normal text-xs leading-[1.1875rem] text-right text-[#FF630C];
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-like-count{
+    @apply not-italic font-normal text-xs leading-[1.1875rem] text-right text-[#195E8E];
+}
 
 /*      -----------PACKAGE_PAGE_END------------      */

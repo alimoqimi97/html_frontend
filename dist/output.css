@@ -1636,15 +1636,6 @@ p.PACKAGE-package-name {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
-@media (prefers-color-scheme: dark) {
-  .PACKAGE-tab:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-    --tw-text-opacity: 1;
-    color: rgb(209 213 219 / var(--tw-text-opacity));
-  }
-}
-
 .PACKAGE-tabs .PACKAGE-category li {
   display: flex;
   width: 6.96rem;
@@ -1956,10 +1947,12 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-your-videos {
+  margin-top: 1.8125rem;
   width: 100%;
 }
 
 .PACKAGE-your-videos h1 {
+  margin-bottom: 1.6875rem;
   font-size: 1.25rem;
   font-weight: 400;
   font-style: normal;
@@ -2031,6 +2024,151 @@ p.PACKAGE-package-name {
 
 .PACKAGE-send-file img {
   width: 13.1%;
+}
+
+.PACKAGE-point-of-view {
+  margin-top: 2.5rem;
+}
+
+.PACKAGE-point-of-view h1 {
+  padding-bottom: 1.8125rem;
+  text-align: justify;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.9375rem;
+  --tw-text-opacity: 1;
+  color: rgb(25 94 142 / var(--tw-text-opacity));
+}
+
+.PACKAGE-point-of-view  #pointOfView {
+  margin-bottom: 2.1875rem;
+  width: 100%;
+  border-radius: 0.625rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-top: 1.875rem;
+  padding-right: 1.5625rem;
+  padding-left: 1.0625rem;
+  padding-bottom: 2rem;
+  --tw-shadow: inset -1px 3px 2px #D4E2ED;
+  --tw-shadow-colored: inset -1px 3px 2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.PACKAGE-point-of-view .PACKAGE-send-view {
+  height: 1.875rem;
+  width: 28.2%;
+  border-radius: 0.15rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 123 218 / var(--tw-bg-opacity));
+  text-align: center;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.0625rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.PACKAGE-user-comments {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  row-gap: 2.6875rem;
+  padding-top: 2.5625rem;
+}
+
+.PACKAGE-user-comments .PACKAGE-comment {
+  width: 100%;
+  border-radius: 0.3125rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-top: 0.75rem;
+  padding-right: 1.0625rem;
+  padding-bottom: 0.8125rem;
+  padding-left: 0.75rem;
+  box-shadow: -4px 3px 0px rgba(212, 226, 237, 0.25), 0px -1px 28px #D4E2ED;
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-title h3 {
+  text-align: right;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.4375rem;
+  --tw-text-opacity: 1;
+  color: rgb(64 47 47 / var(--tw-text-opacity));
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-title p {
+  text-align: right;
+  font-size: 0.625rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0.9375rem;
+  --tw-text-opacity: 1;
+  color: rgb(128 128 128 / var(--tw-text-opacity));
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-grade {
+  text-align: right;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(128 128 128 / var(--tw-text-opacity));
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comment-content {
+  padding-top: 0.5625rem;
+  text-align: justify;
+  font-size: 0.711rem;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.125rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-reply {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 0.34rem;
+       column-gap: 0.34rem;
+  text-align: right;
+  font-size: 0.6rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.1875rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 99 12 / var(--tw-text-opacity));
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-like-count {
+  text-align: right;
+  font-size: 0.6rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.1875rem;
+  --tw-text-opacity: 1;
+  color: rgb(25 94 142 / var(--tw-text-opacity));
 }
 
 /*      -----------PACKAGE_PAGE_END------------      */
