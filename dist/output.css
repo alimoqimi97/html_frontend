@@ -808,7 +808,7 @@ button {
   position: fixed;
   bottom: 0px;
   display: flex;
-  width: 100%;
+  width: 137px;
   align-items: center;
   justify-content: center;
 }
@@ -817,7 +817,6 @@ button {
   .menu_container {
     position: static;
     margin: 0.5rem;
-    width: auto;
     flex-direction: column;
   }
 }
@@ -918,8 +917,8 @@ button {
 @media (min-width: 744px) {
   .menu_items li {
     position: relative;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
