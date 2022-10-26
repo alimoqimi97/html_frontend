@@ -300,6 +300,22 @@ p.PACKAGE-package-name {
   box-shadow: 0px 8.00693px 0px #D4E2ED, inset 0px 3.0026px 3.0026px #D4E2ED;
 }
 
+.PACKAGE-package-contents .PACKAGE-package {
+  @apply relative ;
+}
+
+.PACKAGE-package-contents .PACKAGE-package  .PACKAGE-popup{
+  @apply absolute pt-[0.5625rem] px-[1.3125rem] pb-[0.5737rem] bg-white shadow-[1px_2px_1px_#DAE0E2] z-40 rounded-[0.625rem] w-[43%] h-[2.875rem] left-0 bottom-[9.1rem];
+}
+
+.PACKAGE-package-contents .PACKAGE-package  .PACKAGE-popup #title{
+  @apply not-italic font-bold text-[0.6rem] leading-[0.9375rem] text-right text-[#FB7171] relative;
+}
+
+.PACKAGE-package-contents .PACKAGE-package  .PACKAGE-popup #teacher{
+  @apply not-italic font-normal text-[0.6rem] leading-[0.9375rem] text-right text-[#54595E] relative;
+}
+
 .PACKAGE-test {
   @apply w-full bg-[#E8F0F6] rounded-tl-[0] rounded-tr-[0] rounded-br-[0.3125rem] rounded-bl-[0.3125rem];
 }
