@@ -848,7 +848,7 @@ button {
   position: fixed;
   bottom: 0px;
   display: flex;
-  width: 137px;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
@@ -1879,10 +1879,15 @@ p.PACKAGE-package-name {
   justify-content: center;
 }
 
+.PACKAGE-package-contents .PACKAGE-test-station img {
+  margin-bottom: 1.25rem;
+}
+
 .PACKAGE-package-contents .PACKAGE-test-station h1 {
+  margin-bottom: 0.5rem;
   margin-top: 4.5rem;
   text-align: center;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   font-weight: 400;
   font-style: normal;
   line-height: 1.25rem;
@@ -2180,6 +2185,62 @@ p.PACKAGE-package-name {
   line-height: 1.1875rem;
   --tw-text-opacity: 1;
   color: rgb(25 94 142 / var(--tw-text-opacity));
+}
+
+.PACKAGE-test {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  padding-top: 1.9375rem;
+  padding-bottom: 1.625rem;
+}
+
+.PACKAGE-test .PACKAGE-choice {
+  margin-bottom: 0.875rem;
+  display: flex;
+  justify-content: flex-start;
+  -moz-column-gap: 0.5625rem;
+       column-gap: 0.5625rem;
+}
+
+.PACKAGE-test .PACKAGE-choice p {
+  text-align: justify;
+  font-size: 0.75rem;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.1875rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.PACKAGE-test .PACKAGE-question-text {
+  margin-bottom: 3.4375rem;
+  text-align: justify;
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.1875rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.PACKAGE-test button {
+  margin-top: 2.1875rem;
+  height: 1.875rem;
+  width: 28.2%;
+  border-radius: 0.15625rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 123 218 / var(--tw-bg-opacity));
+  text-align: center;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.0625rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.PACKAGE-test img.PACKAGE-question-pic {
+  mix-blend-mode: overlay;
 }
 
 /*      -----------PACKAGE_PAGE_END------------      */

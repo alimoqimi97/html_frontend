@@ -89,7 +89,7 @@
     @apply ml-1 text-sm font-medium text-[#ACACAC] dark:text-gray-400;
   }
   .menu_container {
-    @apply w-[137px] flex fixed bottom-0 items-center justify-center md:m-2 md:flex-col md:static;
+    @apply w-full flex fixed bottom-0 items-center justify-center md:m-2 md:flex-col md:static;
   }
   .menu_items {
     @apply w-full bg-white md:h-264 rounded-2xl md:border-t-0 md:rounded-xl border-t-4 md:border-l-4 border-[#B8D1E3] flex md:flex-col justify-center md:justify-start items-center md:relative;
@@ -457,8 +457,12 @@ p.PACKAGE-package-name {
   @apply flex flex-col justify-center items-center;
 }
 
+.PACKAGE-package-contents .PACKAGE-test-station img{
+  @apply mb-[1.25rem];
+}
+
 .PACKAGE-package-contents .PACKAGE-test-station h1 {
-  @apply not-italic font-normal text-xs leading-5 text-center text-[#007BDA] mt-[4.5rem];
+  @apply mb-2 not-italic font-normal text-[0.75rem] leading-5 text-center text-[#007BDA] mt-[4.5rem];
 }
 
 .PACKAGE-weekly-recommended-packages {
@@ -578,7 +582,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions {
-  @apply flex gap-x-3 flex-row-reverse justify-start  items-center;
+  @apply flex gap-x-3 flex-row-reverse justify-start items-center;
 }
 
 .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-reply{
@@ -589,4 +593,27 @@ p.PACKAGE-package-name {
   @apply not-italic font-normal text-xs leading-[1.1875rem] text-right text-[#195E8E];
 }
 
+.PACKAGE-test {
+  @apply pt-[1.9375rem] px-[0.9375rem] pb-[1.625rem];
+}
+
+.PACKAGE-test .PACKAGE-choice {
+  @apply flex justify-start gap-x-[0.5625rem] mb-[0.875rem];
+}
+
+.PACKAGE-test .PACKAGE-choice p{
+  @apply not-italic font-light text-[0.75rem] leading-[1.1875rem] text-justify text-black;
+}
+
+.PACKAGE-test .PACKAGE-question-text {
+  @apply  not-italic font-medium text-[0.75rem] leading-[1.1875rem] text-justify text-black mb-[3.4375rem];
+}
+
+.PACKAGE-test button{
+  @apply w-[28.2%] h-[1.875rem] bg-[#007BDA] mt-[2.1875rem] rounded-[0.15625rem] not-italic font-bold text-[0.6875rem] leading-[1.0625rem] text-center text-white;
+}
+
+.PACKAGE-test img.PACKAGE-question-pic{
+  @apply mix-blend-overlay
+}
 /*      -----------PACKAGE_PAGE_END------------      */
