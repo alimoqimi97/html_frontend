@@ -1,324 +1,585 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="PACKAGE-html" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./styles.css" /> -->
+    <link href="../dist/output.css" rel="stylesheet" />
+    <title>Cloud Class</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css" />
-    <link href="../dist/output.css" rel="stylesheet">
-    <title>Document</title>
-</head>
+  <body class="PACKAGE-body">
+    <div class="page-container">
+      <div class="content_container">
+        <div class="header">
+          <nav class="header_nav">
+            <div class="header_nav-container">
+              <div class="header_avatar-container">
+                <div class="header_avatar-img">
+                  <img
+                    src="https://www.w3schools.com/howto/img_avatar.png"
+                    alt="avatar"
+                  />
+                </div>
 
-<body class="PACKAGE-body">
-    <section class="PACKAGE-main-content">
-        <div class="PACKAGE-header">
+                <div class="header_avatar-detail-container">
+                  <div class="header_avatar-detail">
+                    <h3>لورم ایپسوم</h3>
+                    <p>امتیاز: <span>159</span></p>
+                  </div>
+
+                  <div class="header_icon arrow">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-chevron-down"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+
+                <div class="header_button">
+                  <button>خرید اشتراک</button>
+                </div>
+              </div>
+            </div>
+            <div class="header_right-icons">
+              <div class="header_icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  />
+                </svg>
+              </div>
+              <div class="header_icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-envelope"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+                  />
+                </svg>
+              </div>
+
+              <div class="menu_mobile-logo">
+                <p>دانا جو</p>
+              </div>
+
+              <div class="header_icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  fill="currentColor"
+                  class="bi bi-arrow-right-short"
+                  viewBox="0 0 15 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </nav>
+          <nav dir="rtl" class="header_breadcrumb" aria-label="Breadcrumb">
+            <ol>
+              <li>
+                <a href="#"> موضوع </a>
+              </li>
+              <li>
+                <div class="items">
+                  <span>/</span>
+                  <a href="#">ادرس صفحات</a>
+                </div>
+              </li>
+              <li aria-current="page">
+                <div class="items">
+                  <span>/</span>
+                  <span>کلیک شده</span>
+                </div>
+              </li>
+            </ol>
+          </nav>
+        </div>
+
+        <section class="PACKAGE-main-content">
+            <div class="PACKAGE-header">
+                <div>
+                    <img class="PACKAGE-logo" src="../assets/icons/package/package-logo.svg" alt="package-logo" />
+                </div>
+                <div class="PACKAGE-controller">
+                    <p class="PACKAGE-package-controller-text">بسته قبل</p>
+    
+                    <div class="PACKAGE-controller-actions">
+                        <img class="PACKAGE-controller-icon" src="../assets/icons/package/chevron-left.svg"
+                            alt="chevron-right">
+    
+                        <p class="PACKAGE-package-name">لورم ایپسوم نام بسته ۱۲۳۴</p>
+    
+                        <img class="PACKAGE-controller-icon" src="../assets/icons/package/chevron-right.svg"
+                            alt="chevron-left">
+    
+                    </div>
+                    <p class="PACKAGE-package-controller-text">بسته بعد</p>
+                </div>
+                <div class="PACKAGE-lesson-book-pages">
+                    <img class="PACKAGE-lesson-book-pages-logo" src="../assets/icons/package/lesson-book-pages.svg"
+                        alt="lesson-pages-book" />
+                    <p class="PACKAGE-book-pages-text">
+                        صفحات کتاب درسی
+                    </p>
+                </div>
+            </div>
             <div>
-                <img class="PACKAGE-logo" src="../assets/icons/package/package-logo.svg" alt="package-logo" />
-            </div>
-            <div class="PACKAGE-controller">
-                <p class="PACKAGE-package-controller-text">بسته قبل</p>
-
-                <div class="PACKAGE-controller-actions">
-                    <img class="PACKAGE-controller-icon" src="../assets/icons/package/chevron-left.svg"
-                        alt="chevron-right">
-
-                    <p class="PACKAGE-package-name">لورم ایپسوم نام بسته ۱۲۳۴</p>
-
-                    <img class="PACKAGE-controller-icon" src="../assets/icons/package/chevron-right.svg"
-                        alt="chevron-left">
-
+                <div class="PACKAGE-tabs">
+                    <ul class="PACKAGE-category">
+                        <li>
+                            <a href="#" aria-current="page" class="PACKAGE-active" dideo-checked="true">مدرسه</a>
+                        </li>
+                        <li>
+                            <a href="#" class="PACKAGE-tab" dideo-checked="true">کنکور مقدماتی</a>
+                        </li>
+                        <li>
+                            <a href="#" class="PACKAGE-tab" dideo-checked="true">کنکور پیشرفته</a>
+                        </li>
+                    </ul>
                 </div>
-                <p class="PACKAGE-package-controller-text">بسته بعد</p>
-            </div>
-            <div class="PACKAGE-lesson-book-pages">
-                <img class="PACKAGE-lesson-book-pages-logo" src="../assets/icons/package/lesson-book-pages.svg"
-                    alt="lesson-pages-book" />
-                <p class="PACKAGE-book-pages-text">
-                    صفحات کتاب درسی
-                </p>
-            </div>
-        </div>
-        <div>
-            <div class="PACKAGE-tabs">
-                <ul class="PACKAGE-category">
-                    <li>
-                        <a href="#" aria-current="page" class="PACKAGE-active" dideo-checked="true">مدرسه</a>
-                    </li>
-                    <li>
-                        <a href="#" class="PACKAGE-tab" dideo-checked="true">کنکور مقدماتی</a>
-                    </li>
-                    <li>
-                        <a href="#" class="PACKAGE-tab" dideo-checked="true">کنکور پیشرفته</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="PACKAGE-package-contents">
-                <div class="PACKAGE-package">
-                    <div class="carousel">
-                        <div class="carousel-inner">
-                            <img id="start-video" src="../assets/icons/package/start-video.svg" alt="start-video">
-                            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true"
-                                hidden="" checked="checked">
-                            <div class="carousel-item">
-                                <img src="../assets/images/package-poster.png">
+                <div class="PACKAGE-package-contents">
+                    <div class="PACKAGE-package">
+                        <div class="carousel">
+                            <div class="carousel-inner">
+                                <img id="start-video" src="../assets/icons/package/start-video.svg" alt="start-video">
+                                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true"
+                                    hidden="" checked="checked">
+                                <div class="carousel-item">
+                                    <img src="../assets/images/package-poster.png">
+                                </div>
+                                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true"
+                                    hidden="">
+                                <div class="carousel-item">
+                                    <img src="../assets/images/package-poster.png">
+                                </div>
+                                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true"
+                                    hidden="">
+                                <div class="carousel-item">
+                                    <img src="../assets/images/package-poster.png">
+                                </div>
+                                <label for="carousel-3" class="carousel-control prev control-1">
+                                    <img src="../assets/icons/package/chevron-left.svg" alt="chevron-left">
+                                </label>
+                                <label for="carousel-2" class="carousel-control next control-1">
+                                    <img src="../assets/icons/package/chevron-right.svg" alt="chevron-right">
+                                </label>
+                                <ol class="carousel-indicators">
+                                    <li>
+                                        <label for="carousel-1" class="carousel-bullet">•</label>
+                                    </li>
+                                    <li>
+                                        <label for="carousel-2" class="carousel-bullet">•</label>
+                                    </li>
+                                    <li>
+                                        <label for="carousel-3" class="carousel-bullet">•</label>
+                                    </li>
+                                </ol>
                             </div>
-                            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true"
-                                hidden="">
-                            <div class="carousel-item">
-                                <img src="../assets/images/package-poster.png">
-                            </div>
-                            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true"
-                                hidden="">
-                            <div class="carousel-item">
-                                <img src="../assets/images/package-poster.png">
-                            </div>
-                            <label for="carousel-3" class="carousel-control prev control-1">
-                                <img src="../assets/icons/package/chevron-left.svg" alt="chevron-left">
-                            </label>
-                            <label for="carousel-2" class="carousel-control next control-1">
-                                <img src="../assets/icons/package/chevron-right.svg" alt="chevron-right">
-                            </label>
-                            <ol class="carousel-indicators">
-                                <li>
-                                    <label for="carousel-1" class="carousel-bullet">•</label>
-                                </li>
-                                <li>
-                                    <label for="carousel-2" class="carousel-bullet">•</label>
-                                </li>
-                                <li>
-                                    <label for="carousel-3" class="carousel-bullet">•</label>
-                                </li>
-                            </ol>
+                        </div>
+                        <div class="PACKAGE-package-details">
+                            <img id="downloadPackage" src="../assets/icons/package/download-package.svg"
+                                alt="download-package">
+                            <h3 class="PACKAGE-title">
+                                مدرس: جناب آقای قادری
+                            </h3>
+                            <p>
+                                فصل پنجم صفحه 59 فیزیک
+                            </p>
+                            <p id="duration">
+                                <span id="clock"><img src="../assets/icons/package/clock.svg" alt="clock-icon" /></span>
+                                زمان 30 دقیقه
+                            </p>
                         </div>
                     </div>
-                    <div class="PACKAGE-package-details">
-                        <img id="downloadPackage" src="../assets/icons/package/download-package.svg"
-                            alt="download-package">
-                        <h3 class="PACKAGE-title">
-                            مدرس: جناب آقای قادری
-                        </h3>
-                        <p>
-                            فصل پنجم صفحه 59 فیزیک
-                        </p>
-                        <p id="duration">
-                            <span id="clock"><img src="../assets/icons/package/clock.svg" alt="clock-icon" /></span>
-                            زمان 30 دقیقه
-                        </p>
-                    </div>
-                </div>
-                <div class="PACKAGE-package">
-                    <div class="carousel">
-                        <div class="carousel-inner">
-                            <img id="continue-video" src="../assets/icons/package/continue-video.svg"
-                                alt="continue-video">
-                            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true"
-                                hidden="" checked="checked">
-                            <div class="carousel-item">
-                                <img src="../assets/images/package-poster.png">
+                    <div class="PACKAGE-package">
+                        <div class="carousel">
+                            <div class="carousel-inner">
+                                <img id="continue-video" src="../assets/icons/package/continue-video.svg"
+                                    alt="continue-video">
+                                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true"
+                                    hidden="" checked="checked">
+                                <div class="carousel-item">
+                                    <img src="../assets/images/package-poster.png">
+                                </div>
+                                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true"
+                                    hidden="">
+                                <div class="carousel-item">
+                                    <img src="../assets/images/package-poster.png">
+                                </div>
+                                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true"
+                                    hidden="">
+                                <div class="carousel-item">
+                                    <img src="../assets/images/package-poster.png">
+                                </div>
+                                <label for="carousel-3" class="carousel-control prev control-1">
+                                    <img src="../assets/icons/package/chevron-left.svg" alt="chevron-left">
+                                </label>
+                                <label for="carousel-2" class="carousel-control next control-1">
+                                    <img src="../assets/icons/package/chevron-right.svg" alt="chevron-right">
+                                </label>
+                                <ol class="carousel-indicators">
+                                    <li>
+                                        <label for="carousel-1" class="carousel-bullet">•</label>
+                                    </li>
+                                    <li>
+                                        <label for="carousel-2" class="carousel-bullet">•</label>
+                                    </li>
+                                    <li>
+                                        <label for="carousel-3" class="carousel-bullet">•</label>
+                                    </li>
+                                </ol>
                             </div>
-                            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true"
-                                hidden="">
-                            <div class="carousel-item">
-                                <img src="../assets/images/package-poster.png">
-                            </div>
-                            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true"
-                                hidden="">
-                            <div class="carousel-item">
-                                <img src="../assets/images/package-poster.png">
-                            </div>
-                            <label for="carousel-3" class="carousel-control prev control-1">
-                                <img src="../assets/icons/package/chevron-left.svg" alt="chevron-left">
-                            </label>
-                            <label for="carousel-2" class="carousel-control next control-1">
-                                <img src="../assets/icons/package/chevron-right.svg" alt="chevron-right">
-                            </label>
-                            <ol class="carousel-indicators">
-                                <li>
-                                    <label for="carousel-1" class="carousel-bullet">•</label>
-                                </li>
-                                <li>
-                                    <label for="carousel-2" class="carousel-bullet">•</label>
-                                </li>
-                                <li>
-                                    <label for="carousel-3" class="carousel-bullet">•</label>
-                                </li>
-                            </ol>
+                        </div>
+                        <div class="PACKAGE-package-details">
+                            <img id="downloadPackage" src="../assets/icons/package/download-package.svg"
+                                alt="download-package">
+                            <h3 class="PACKAGE-title">
+                                مدرس: جناب آقای قادری
+                            </h3>
+                            <p>
+                                فصل پنجم صفحه 59 فیزیک
+                            </p>
+                            <p id="duration">
+                                <span id="clock"><img src="../assets/icons/package/clock.svg" alt="clock-icon" /></span>
+                                زمان 30 دقیقه
+                            </p>
                         </div>
                     </div>
-                    <div class="PACKAGE-package-details">
-                        <img id="downloadPackage" src="../assets/icons/package/download-package.svg"
-                            alt="download-package">
-                        <h3 class="PACKAGE-title">
-                            مدرس: جناب آقای قادری
-                        </h3>
-                        <p>
-                            فصل پنجم صفحه 59 فیزیک
-                        </p>
-                        <p id="duration">
-                            <span id="clock"><img src="../assets/icons/package/clock.svg" alt="clock-icon" /></span>
-                            زمان 30 دقیقه
-                        </p>
+                    <div class="PACKAGE-test-station">
+                        <h1>
+                            ایستگاه سنجش
+                        </h1>
+                        <img src="../assets/icons/package/open-test-question.svg" alt="open-test-question">
                     </div>
                 </div>
-                <div class="PACKAGE-test-station">
+                <div class="PACKAGE-test">
+                  <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان 
+                  </p>
+                  <div>
+                    <span><img src="../assets/icons/package/check.svg" alt="check" /></span>
+                    <p>لورم ایپسوم متن</p>
+                  </div>
+                  <div>
+                    <span><img src="../assets/icons/package/uncheck.svg" alt="uncheck" /></span>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی</p>
+                  </div>
+                  <div>
+                    <span><img src="../assets/icons/package/check.svg" alt="uncheck" /></span>
+                    <p>لورم ایپسوم متن ساختگی </p>
+                  </div>
+                  <div>
+                    <span><img src="../assets/icons/package/check.svg" alt="uncheck" /></span>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی تا با نرم افزارها شناخت بیشتری را برا</p>
+                  </div>
+                  
+                  <img src="../assets/images/testImage.png" alt="testImage" />
+                </div>
+                <div class="PACKAGE-weekly-recommended-packages">
                     <h1>
-                        ایستگاه سنجش
+                        بسته های پیشنهادی هفته
                     </h1>
-                    <img src="../assets/icons/package/open-test-question.svg" alt="open-test-question">
-                </div>
-            </div>
-            <div class="PACKAGE-weekly-recommended-packages">
-                <h1>
-                    بسته های پیشنهادی هفته
-                </h1>
-                <div class="PACKAGE-recommended-packages">
-                    <div class="PACKAGE-package-card">
-                        <span><img src="../assets/icons/package/package-logo2.svg" alt="pl1" /></span>
-                        <img class="PACKAGE-card-image" src="../assets/images/package-pic1.png" alt="package1" />
-                        <h1 class="PACKAGE-title"> بسته زیست شناسی</h1>
-                        <p>فصل اول: جهان هستی</p>
-                        <p>درس چهارم</p>
-                    </div>
-                    <div class="PACKAGE-package-card">
-                        <span><img src="../assets/icons/package/package-logo.svg" alt="pl2" /></span>
-                        <img class="PACKAGE-card-image" src="../assets/images/package-pic2.png" alt="package2" />
-                        <h1 class="PACKAGE-title"> بسته زیست شناسی</h1>
-                        <p>فصل اول: جهان هستی</p>
-                        <p>درس چهارم</p>
-                    </div>
-                    <div class="PACKAGE-package-card">
-                        <span><img src="../assets/icons/package/package-logo3.svg" alt="pl3"></span>
-                        <img class="PACKAGE-card-image" src="../assets/images/package-image4.png" alt="package3" />
-                        <h1 class="PACKAGE-title"> بسته زیست شناسی</h1>
-                        <p>فصل اول: جهان هستی</p>
-                        <p>درس چهارم</p>
+                    <div class="PACKAGE-recommended-packages">
+                        <div class="PACKAGE-package-card">
+                            <span><img src="../assets/icons/package/package-logo2.svg" alt="pl1" /></span>
+                            <img class="PACKAGE-card-image" src="../assets/images/package-pic1.png" alt="package1" />
+                            <h1 class="PACKAGE-title"> بسته زیست شناسی</h1>
+                            <p>فصل اول: جهان هستی</p>
+                            <p>درس چهارم</p>
+                        </div>
+                        <div class="PACKAGE-package-card">
+                            <span><img src="../assets/icons/package/package-logo.svg" alt="pl2" /></span>
+                            <img class="PACKAGE-card-image" src="../assets/images/package-pic2.png" alt="package2" />
+                            <h1 class="PACKAGE-title"> بسته زیست شناسی</h1>
+                            <p>فصل اول: جهان هستی</p>
+                            <p>درس چهارم</p>
+                        </div>
+                        <div class="PACKAGE-package-card">
+                            <span><img src="../assets/icons/package/package-logo3.svg" alt="pl3"></span>
+                            <img class="PACKAGE-card-image" src="../assets/images/package-image4.png" alt="package3" />
+                            <h1 class="PACKAGE-title"> بسته زیست شناسی</h1>
+                            <p>فصل اول: جهان هستی</p>
+                            <p>درس چهارم</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="PACKAGE-your-videos">
-                <h1>ویدیو شما</h1>
-                <div class="PACKAGE-video-list">
-                    <img src="../assets/images/yourVideos1.png" alt="yourVideos1" />
-                    <img src="../assets/images/yourVideos2.png" alt="yourVideos2" />
-                    <img src="../assets/images/yourVideos3.png" alt="yourVideos3" />
-                </div>
-                <div class="PACKAGE-send-file">
-                    <button>ارسال فایل</button>
-                    <div class="PACKAGE-select-file-text">
-                        <h1>فایل خود را درون کادر قرار دهید و یا انتخاب کنید</h1>
-                        <p>حجم بیشتر از 10 مگا بایت نباشد. JPG, PNG or PDF</p>
+                <div class="PACKAGE-your-videos">
+                    <h1>ویدیو شما</h1>
+                    <div class="PACKAGE-video-list">
+                        <img src="../assets/images/yourVideos1.png" alt="yourVideos1" />
+                        <img src="../assets/images/yourVideos2.png" alt="yourVideos2" />
+                        <img src="../assets/images/yourVideos3.png" alt="yourVideos3" />
                     </div>
-                    <img src="../assets/icons/package/send-file.svg" alt="send-file">
-                </div>
-            </div>
-            <div class="PACKAGE-point-of-view" >
-                <h1>
-                    دیدگاه  شما
-                </h1>
-                <textarea name="point-of-view" id="pointOfView" cols="30" rows="10"></textarea>
-                <button class="PACKAGE-send-view">ارسال دیدگاه</button>
-            </div>
-            <div class="PACKAGE-user-comments">
-                <div class="PACKAGE-comment">
-                    <div class="PACKAGE-title">
-                        <h3>سید محمد سنایی</h3>
-                        <p>25 دقیقه پیش</p>
+                    <div class="PACKAGE-send-file">
+                        <button>ارسال فایل</button>
+                        <div class="PACKAGE-select-file-text">
+                            <h1>فایل خود را درون کادر قرار دهید و یا انتخاب کنید</h1>
+                            <p>حجم بیشتر از 10 مگا بایت نباشد. JPG, PNG or PDF</p>
+                        </div>
+                        <img src="../assets/icons/package/send-file.svg" alt="send-file">
                     </div>
-                    <p class="PACKAGE-grade">
-                        یازدهم ریاضی
-                    </p>
-                    <p class="PACKAGE-comment-content">
-                        نان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با 
-                    </p>
-                    <div class="PACKAGE-comments-actions">
-                        <button class="PACKAGE-reply">
-                            <span><img src="../assets/icons/package/reply.svg" alt="reply" /></span>
-                            پاسخ دادن
-                        </button>
-                        <p class="PACKAGE-like-count">
-                            11 نفر پسندیدن
+                </div>
+                <div class="PACKAGE-point-of-view" >
+                    <h1>
+                        دیدگاه  شما
+                    </h1>
+                    <textarea name="point-of-view" id="pointOfView" cols="30" rows="10"></textarea>
+                    <button class="PACKAGE-send-view">ارسال دیدگاه</button>
+                </div>
+                <div class="PACKAGE-user-comments">
+                    <div class="PACKAGE-comment">
+                        <div class="PACKAGE-title">
+                            <h3>سید محمد سنایی</h3>
+                            <p>25 دقیقه پیش</p>
+                        </div>
+                        <p class="PACKAGE-grade">
+                            یازدهم ریاضی
                         </p>
-                        <button class="PACKAGE-like">
-                            <img src="../assets/icons/package/like.svg" alt="like" />
-                        </button>
-                    </div>
-                </div>
-                <div class="PACKAGE-comment">
-                    <div class="PACKAGE-title">
-                        <h3>نرگس مجیدی</h3>
-                        <p>25 دقیقه پیش</p>
-                    </div>
-                    <p class="PACKAGE-grade">
-                        
-                    </p>
-                    <p class="PACKAGE-comment-content">
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با 
-                    </p>
-                    <div class="PACKAGE-comments-actions">
-                        <button class="PACKAGE-reply">
-                            <span><img src="../assets/icons/package/reply.svg" alt="reply" /></span>
-                            پاسخ دادن
-                        </button>
-                        <p class="PACKAGE-like-count">
-                            11 نفر پسندیدن
+                        <p class="PACKAGE-comment-content">
+                            نان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با 
                         </p>
-                        <button class="PACKAGE-like">
-                            <img src="../assets/icons/package/like.svg" alt="like" />
-                        </button>
+                        <div class="PACKAGE-comments-actions">
+                            <button class="PACKAGE-reply">
+                                <span><img src="../assets/icons/package/reply.svg" alt="reply" /></span>
+                                پاسخ دادن
+                            </button>
+                            <p class="PACKAGE-like-count">
+                                11 نفر پسندیدن
+                            </p>
+                            <button class="PACKAGE-like">
+                                <img src="../assets/icons/package/like.svg" alt="like" />
+                            </button>
+                        </div>
                     </div>
-                </div>
-                <div class="PACKAGE-comment">
-                    <div class="PACKAGE-title">
-                        <h3>مهدی معینی</h3>
-                        <p>25 دقیقه پیش</p>
-                    </div>
-                    <p class="PACKAGE-grade">
-                        مشاور
-                    </p>
-                    <p class="PACKAGE-comment-content">
-                        لورم ایپسوم متن ساختگی با تولید
-                    </p>
-                    <div class="PACKAGE-comments-actions">
-                        <button class="PACKAGE-reply">
-                            <span><img src="../assets/icons/package/reply.svg" alt="reply" /></span>
-                            پاسخ دادن
-                        </button>
-                        <p class="PACKAGE-like-count">
-                            44 نفر پسندیدن
+                    <div class="PACKAGE-comment">
+                        <div class="PACKAGE-title">
+                            <h3>نرگس مجیدی</h3>
+                            <p>25 دقیقه پیش</p>
+                        </div>
+                        <p class="PACKAGE-grade">
+                            
                         </p>
-                        <button class="PACKAGE-like">
-                            <img src="../assets/icons/package/not-liked.svg" alt="like" />
-                        </button>
-                    </div>
-                </div>
-                <div class="PACKAGE-comment">
-                    <div class="PACKAGE-title">
-                        <h3>سید محمد سنایی</h3>
-                        <p>25 دقیقه پیش</p>
-                    </div>
-                    <p class="PACKAGE-grade">
-                        یازدهم ریاضی
-                    </p>
-                    <p class="PACKAGE-comment-content">
-                        نان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با 
-                    </p>
-                    <div class="PACKAGE-comments-actions">
-                        <button class="PACKAGE-reply">
-                            <span><img src="../assets/icons/package/reply.svg" alt="reply" /></span>
-                            پاسخ دادن
-                        </button>
-                        <p class="PACKAGE-like-count">
-                            11 نفر پسندیدن
+                        <p class="PACKAGE-comment-content">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با 
                         </p>
-                        <button class="PACKAGE-like">
-                            <img src="../assets/icons/package/like.svg" alt="like" />
-                        </button>
+                        <div class="PACKAGE-comments-actions">
+                            <button class="PACKAGE-reply">
+                                <span><img src="../assets/icons/package/reply.svg" alt="reply" /></span>
+                                پاسخ دادن
+                            </button>
+                            <p class="PACKAGE-like-count">
+                                11 نفر پسندیدن
+                            </p>
+                            <button class="PACKAGE-like">
+                                <img src="../assets/icons/package/like.svg" alt="like" />
+                            </button>
+                        </div>
+                    </div>
+                    <div class="PACKAGE-comment">
+                        <div class="PACKAGE-title">
+                            <h3>مهدی معینی</h3>
+                            <p>25 دقیقه پیش</p>
+                        </div>
+                        <p class="PACKAGE-grade">
+                            مشاور
+                        </p>
+                        <p class="PACKAGE-comment-content">
+                            لورم ایپسوم متن ساختگی با تولید
+                        </p>
+                        <div class="PACKAGE-comments-actions">
+                            <button class="PACKAGE-reply">
+                                <span><img src="../assets/icons/package/reply.svg" alt="reply" /></span>
+                                پاسخ دادن
+                            </button>
+                            <p class="PACKAGE-like-count">
+                                44 نفر پسندیدن
+                            </p>
+                            <button class="PACKAGE-like">
+                                <img src="../assets/icons/package/not-liked.svg" alt="like" />
+                            </button>
+                        </div>
+                    </div>
+                    <div class="PACKAGE-comment">
+                        <div class="PACKAGE-title">
+                            <h3>سید محمد سنایی</h3>
+                            <p>25 دقیقه پیش</p>
+                        </div>
+                        <p class="PACKAGE-grade">
+                            یازدهم ریاضی
+                        </p>
+                        <p class="PACKAGE-comment-content">
+                            نان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با 
+                        </p>
+                        <div class="PACKAGE-comments-actions">
+                            <button class="PACKAGE-reply">
+                                <span><img src="../assets/icons/package/reply.svg" alt="reply" /></span>
+                                پاسخ دادن
+                            </button>
+                            <p class="PACKAGE-like-count">
+                                11 نفر پسندیدن
+                            </p>
+                            <button class="PACKAGE-like">
+                                <img src="../assets/icons/package/like.svg" alt="like" />
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-</body>
+        </section>
+      </div>
 
+      <div class="menu_container">
+        <div class="menu_items">
+          <div class="menu_sidebar-logo">
+            <p>دانا جو</p>
+          </div>
+          <ul>
+            <li>
+              <div class="wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-menu-button-wide"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v2A1.5 1.5 0 0 1 14.5 5h-13A1.5 1.5 0 0 1 0 3.5v-2zM1.5 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-13z"
+                  />
+                  <path
+                    d="M2 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm10.823.323-.396-.396A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"
+                  />
+                </svg>
+                <p>مشاوره</p>
+              </div>
+            </li>
+
+            <li class="selected">
+              <div class="wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-list text-[#3356A3]"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                  />
+                </svg>
+                <p>کلاس</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-cast text-[#B8D1E3]"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="m7.646 9.354-3.792 3.792a.5.5 0 0 0 .353.854h7.586a.5.5 0 0 0 .354-.854L8.354 9.354a.5.5 0 0 0-.708 0z"
+                  />
+                  <path
+                    d="M11.414 11H14.5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h3.086l-1 1H1.5A1.5 1.5 0 0 1 0 10.5v-7A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v7a1.5 1.5 0 0 1-1.5 1.5h-2.086l-1-1z"
+                  />
+                </svg>
+                <p>جدول</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-border-style text-[#B8D1E3]"
+                  class="bi bi-calendar3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"
+                  />
+                  <path
+                    d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                  />
+                </svg>
+                <p>آزمون</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-border-style text-[#B8D1E3]"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm8 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-4 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm8 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-4-4a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-1z"
+                  />
+                </svg>
+                <p>داشبورد</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="contact-us">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="35"
+              height="35"
+              fill="currentColor"
+              class="bi bi-headset text-[#F28665]"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
