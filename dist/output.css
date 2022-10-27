@@ -1966,7 +1966,6 @@ p.PACKAGE-package-name {
 
 @media (min-width: 980px) {
   .PACKAGE-test {
-    margin-bottom: 2.8125rem;
     padding-top: 3.4375rem;
     padding-right: 1.875rem;
     padding-left: 1.8125rem;
@@ -2359,6 +2358,12 @@ p.PACKAGE-package-name {
   }
 }
 
+@media (min-width: 980px) {
+  .PACKAGE-weekly-recommended-packages {
+    margin-top: 2rem;
+  }
+}
+
 .PACKAGE-weekly-recommended-packages h1 {
   margin-bottom: 0.75rem;
   font-size: 0.9375rem;
@@ -2414,6 +2419,12 @@ p.PACKAGE-package-name {
     height: 12.5625rem;
     width: 19.86%;
     flex-grow: 0;
+  }
+}
+
+@media (min-width: 980px) {
+  .PACKAGE-weekly-recommended-packages .PACKAGE-recommended-packages .PACKAGE-package-card {
+    width: 13.87%;
   }
 }
 
@@ -2893,7 +2904,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-test .PACKAGE-question-text {
-  margin-bottom: 3.4375rem;
+  margin-bottom: 2.8125rem;
   text-align: justify;
   font-size: 0.75rem;
   font-weight: 500;
