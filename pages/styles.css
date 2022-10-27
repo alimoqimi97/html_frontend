@@ -316,7 +316,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-test {
-  @apply w-full bg-[#E8F0F6] rounded-tl-[0] rounded-tr-[0] rounded-br-[0.3125rem] rounded-bl-[0.3125rem] pt-[1.9375rem] px-[0.9375rem] pb-[1.625rem] md:pb-[0.875rem] lg:pt-[3.4375rem] lg:pr-[1.875rem] lg:pl-[1.8125rem] lg:pb-0;
+  @apply w-full bg-[#E8F0F6] rounded-tl-[0] rounded-tr-[0] rounded-br-[0.3125rem] rounded-bl-[0.3125rem] md:pt-[2.0625rem] md:pr-[1.5625rem] md:pl-4 pt-[1.9375rem] px-[0.9375rem] pb-[1.625rem] md:pb-[0.875rem] lg:pt-[3.4375rem] lg:pr-[1.875rem] lg:pl-[1.8125rem] lg:pb-0 lg:mb-[2.8125rem];
 }
 
 
@@ -624,7 +624,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-test .PACKAGE-options {
-  @apply w-[58%];
+  @apply lg:w-[58%] md:w-full;
 }
 
 .PACKAGE-test .PACKAGE-choice {
@@ -643,7 +643,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-test button{
-  @apply w-[28.2%] md:w-[19%] h-[1.875rem] md:h-[1.875rem] lg:relative lg:-top-[1.925rem] lg:mt-0 lg:w-[13.08%] bg-[#007BDA] mt-[2.1875rem] rounded-[0.15625rem] not-italic font-bold text-[0.6875rem] leading-[1.0625rem] lg:leading-[1.065625rem] text-center text-white;
+  @apply w-[28.2%] md:mt-[1.6875rem] md:w-[19%] h-[1.875rem] md:h-[1.875rem] lg:relative lg:-top-[1.925rem] lg:mt-0 lg:w-[13.08%] bg-[#007BDA] mt-[2.1875rem] rounded-[0.15625rem] not-italic font-bold text-[0.6875rem] leading-[1.0625rem] lg:leading-[1.065625rem] text-center text-white;
 }
 
 

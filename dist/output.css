@@ -1957,12 +1957,16 @@ p.PACKAGE-package-name {
 
 @media (min-width: 744px) {
   .PACKAGE-test {
+    padding-top: 2.0625rem;
+    padding-right: 1.5625rem;
+    padding-left: 1rem;
     padding-bottom: 0.875rem;
   }
 }
 
 @media (min-width: 980px) {
   .PACKAGE-test {
+    margin-bottom: 2.8125rem;
     padding-top: 3.4375rem;
     padding-right: 1.875rem;
     padding-left: 1.8125rem;
@@ -2825,10 +2829,16 @@ p.PACKAGE-package-name {
     font-size: 0.75rem;
     line-height: 1.1625rem;
   }
+
+  .PACKAGE-test .PACKAGE-options {
+    width: 100%;
+  }
 }
 
-.PACKAGE-test .PACKAGE-options {
-  width: 58%;
+@media (min-width: 980px) {
+  .PACKAGE-test .PACKAGE-options {
+    width: 58%;
+  }
 }
 
 .PACKAGE-test .PACKAGE-choice {
@@ -2927,6 +2937,7 @@ p.PACKAGE-package-name {
 
 @media (min-width: 744px) {
   .PACKAGE-test button {
+    margin-top: 1.6875rem;
     height: 1.875rem;
     width: 19%;
   }
