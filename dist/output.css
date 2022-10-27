@@ -2281,7 +2281,6 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-your-videos h1 {
-  margin-bottom: 2.1875rem;
   font-size: 0.9375rem;
   font-weight: 400;
   font-style: normal;
@@ -2292,7 +2291,6 @@ p.PACKAGE-package-name {
 
 @media (min-width: 744px) {
   .PACKAGE-your-videos h1 {
-    margin-bottom: 2.0625rem;
     font-size: 1.25rem;
     line-height: 1.9375rem;
   }
@@ -2357,7 +2355,7 @@ p.PACKAGE-package-name {
 
 @media (min-width: 744px) {
   .PACKAGE-send-file button {
-    width: 18.9%;
+    width: 19.6%;
   }
 }
 
@@ -2415,7 +2413,7 @@ p.PACKAGE-package-name {
 @media (min-width: 744px) {
   .PACKAGE-send-file img {
     height: 3.2rem;
-    width: 14.2%;
+    width: 14.8%;
   }
 }
 
@@ -2458,6 +2456,7 @@ p.PACKAGE-package-name {
 @media (min-width: 744px) {
   .PACKAGE-point-of-view  #pointOfView {
     margin-bottom: 1.3125rem;
+    width: 97.79%;
   }
 }
 
@@ -2492,6 +2491,7 @@ p.PACKAGE-package-name {
 
 @media (min-width: 744px) {
   .PACKAGE-user-comments {
+    row-gap: 2.6875rem;
     padding-top: 2.875rem;
   }
 }
@@ -2576,9 +2576,12 @@ p.PACKAGE-package-name {
 
 .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-reply {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   -moz-column-gap: 0.34rem;
        column-gap: 0.34rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   text-align: right;
   font-size: 0.6rem;
   font-weight: 400;
@@ -2586,6 +2589,31 @@ p.PACKAGE-package-name {
   line-height: 1.1875rem;
   --tw-text-opacity: 1;
   color: rgb(255 99 12 / var(--tw-text-opacity));
+}
+
+@media (min-width: 744px) {
+  .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-reply {
+    -moz-column-gap: 0.348125rem;
+         column-gap: 0.348125rem;
+    font-size: 0.75rem;
+  }
+
+  .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-reply span {
+    height: 0.57rem;
+    width: 0.57rem;
+  }
+}
+
+.PACKAGE-comments-actions .PACKAGE-like {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 744px) {
+  .PACKAGE-comments-actions .PACKAGE-like img {
+    height: 0.885625rem;
+    width: 1.1275rem;
+  }
 }
 
 .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-like-count {
@@ -2596,6 +2624,13 @@ p.PACKAGE-package-name {
   line-height: 1.1875rem;
   --tw-text-opacity: 1;
   color: rgb(25 94 142 / var(--tw-text-opacity));
+}
+
+@media (min-width: 744px) {
+  .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-like-count {
+    font-size: 0.75rem;
+    line-height: 1.1625rem;
+  }
 }
 
 .PACKAGE-test .PACKAGE-choice {

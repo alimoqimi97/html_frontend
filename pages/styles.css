@@ -521,7 +521,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-your-videos h1 {
-  @apply not-italic font-normal text-[0.9375rem] leading-[1.4375rem] md:text-xl md:leading-[1.9375rem] text-[#195E8E] mb-[2.1875rem] md:mb-[2.0625rem];
+  @apply not-italic font-normal text-[0.9375rem] leading-[1.4375rem] md:text-xl md:leading-[1.9375rem] text-[#195E8E] ;
 }
 .PACKAGE-video-list {
   @apply flex gap-x-[1.9375rem] md:gap-x-8 overflow-x-scroll;
@@ -534,7 +534,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-send-file button {
-  @apply bg-[#007BDA] rounded-[0.15rem] w-[28.2%] md:w-[18.9%] h-[1.875rem] not-italic font-bold text-[0.6875rem] leading-[1.0625rem] text-center text-white ;
+  @apply bg-[#007BDA] rounded-[0.15rem] w-[28.2%] md:w-[19.6%] h-[1.875rem] not-italic font-bold text-[0.6875rem] leading-[1.0625rem] text-center text-white ;
 }
 
 .PACKAGE-send-file .PACKAGE-select-file-text {
@@ -552,7 +552,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-send-file img {
-  @apply w-[13.1%] md:w-[14.2%] md:h-[3.2rem] h-[1.9375rem];
+  @apply w-[13.1%] md:w-[14.8%] md:h-[3.2rem] h-[1.9375rem];
 }
 
 .PACKAGE-point-of-view {
@@ -564,7 +564,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-point-of-view  #pointOfView {
-  @apply bg-white w-full shadow-[inset_-1px_3px_2px_#D4E2ED] rounded-[0.625rem] pt-[1.875rem] pr-[1.5625rem] pl-[1.0625rem] pb-8 mb-[2.1875rem] md:mb-[1.3125rem];
+  @apply bg-white w-full md:w-[97.79%] shadow-[inset_-1px_3px_2px_#D4E2ED] rounded-[0.625rem] pt-[1.875rem] pr-[1.5625rem] pl-[1.0625rem] pb-8 mb-[2.1875rem] md:mb-[1.3125rem];
 }
 
 .PACKAGE-point-of-view .PACKAGE-send-view {
@@ -573,7 +573,7 @@ p.PACKAGE-package-name {
 
 
 .PACKAGE-user-comments {
-  @apply flex flex-col w-full pt-[2.5625rem] gap-y-[2.6875rem] md:pt-[2.875rem];
+  @apply flex flex-col w-full pt-[2.5625rem] gap-y-[2.6875rem] md:pt-[2.875rem] md:gap-y-[2.6875rem];
 }
 
 .PACKAGE-user-comments .PACKAGE-comment{
@@ -606,11 +606,22 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-reply{
-  @apply flex justify-between gap-x-[0.34rem] not-italic font-normal text-xs leading-[1.1875rem] text-right text-[#FF630C];
+  @apply flex justify-between gap-x-[0.34rem] md:gap-x-[0.348125rem] items-center not-italic font-normal text-xs leading-[1.1875rem] md:text-[0.75rem] bg-white text-right text-[#FF630C];
+}
+
+.PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-reply span{
+  @apply md:w-[0.57rem] md:h-[0.57rem];
+}
+
+.PACKAGE-comments-actions .PACKAGE-like {
+  @apply  bg-white;
+}
+.PACKAGE-comments-actions .PACKAGE-like img {
+  @apply md:w-[1.1275rem] md:h-[0.885625rem];
 }
 
 .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-like-count{
-  @apply not-italic font-normal text-xs leading-[1.1875rem] text-right text-[#195E8E];
+  @apply not-italic font-normal text-xs leading-[1.1875rem] text-right text-[#195E8E] md:text-[0.75rem] md:leading-[1.1625rem];
 }
 
 .PACKAGE-test .PACKAGE-choice {
