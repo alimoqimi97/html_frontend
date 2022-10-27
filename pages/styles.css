@@ -282,7 +282,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-tabs .PACKAGE-category li {
-  @apply w-[32.3%] md:w-[30.7%] flex items-end;
+  @apply w-[32.3%] md:w-[32.52%] flex items-end;
 }
 
 .PACKAGE-tabs .PACKAGE-category li a {
