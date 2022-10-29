@@ -33,7 +33,7 @@ module.exports = {
       sm: "480px",
       md: "744px",
       lg: "980px",
-      xl: "1440px",
+      xl: "1442px",
     },
   },
   plugins: [require("tailwindcss-dir")()],
