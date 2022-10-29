@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./styles.css" /> -->
+    <link href="../dist/output.css" rel="stylesheet" />
+    <title>Cloud Class</title>
+  </head>
+
+  <body>
+    <div class="page-container">
+      <div class="content_container">
+        <div class="header">
+          <nav class="header_nav">
+            <div class="header_nav-container">
+              <div class="header_avatar-container">
+                <div class="header_avatar-img">
+                  <img
+                    src="https://www.w3schools.com/howto/img_avatar.png"
+                    alt="avatar"
+                  />
+                </div>
+
+                <div class="header_avatar-detail-container">
+                  <div class="header_avatar-detail">
+                    <h3>لورم ایپسوم</h3>
+                    <p>امتیاز: <span>159</span></p>
+                  </div>
+
+                  <div class="header_icon arrow">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-chevron-down"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+
+                <div class="header_button">
+                  <button>خرید اشتراک</button>
+                </div>
+              </div>
+            </div>
+            <div class="header_right-icons">
+              <div class="header_icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  />
+                </svg>
+              </div>
+              <div class="header_icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-envelope"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+                  />
+                </svg>
+              </div>
+
+              <div class="menu_mobile-logo">
+                <p>دانا جو</p>
+              </div>
+
+              <div class="header_icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  fill="currentColor"
+                  class="bi bi-arrow-right-short"
+                  viewBox="0 0 15 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </nav>
+          <nav dir="rtl" class="header_breadcrumb" aria-label="Breadcrumb">
+            <ol>
+              <li>
+                <a href="#"> موضوع </a>
+              </li>
+              <li>
+                <div class="items">
+                  <span>/</span>
+                  <a href="#">ادرس صفحات</a>
+                </div>
+              </li>
+              <li aria-current="page">
+                <div class="items">
+                  <span>/</span>
+                  <span>کلیک شده</span>
+                </div>
+              </li>
+            </ol>
+          </nav>
+        </div>
+
+        <div dir="rtl" class="class_container">
+          <div class="class_tabs">
+            <ul class="tabs" id="tabs-tab" role="tablist">
+              <li class="active nav-item" role="presentation">
+                <a
+                  href="#tabs-home"
+                  id="tabs-home-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#tabs-home"
+                  role="tab"
+                  aria-controls="tabs-home"
+                  aria-selected="true"
+                  >کتاب ها</a
+                >
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  href="#tabs-profile"
+                  id="tabs-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#tabs-profile"
+                  role="tab"
+                  aria-controls="tabs-profile"
+                  aria-selected="false"
+                  >فصل ها</a
+                >
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  href="#tabs-messages"
+                  id="tabs-messages-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#tabs-messages"
+                  role="tab"
+                  aria-controls="tabs-messages"
+                  aria-selected="false"
+                  >درس ها</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="tabs-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="tabs-home"
+                role="tabpanel"
+                aria-labelledby="tabs-home-tab"
+                dir="ltr"
+              >
+                <ul class="tab-items">
+                  <li>ریاضی 2</li>
+                  <li>فیزیک 3</li>
+                  <li>ادبیات فارسی</li>
+                  <li>ریاضی 2</li>
+                  <li>فیزیک 3</li>
+                  <li>ادبیات فارسی</li>
+                  <li>ریاضی 2</li>
+                  <li>فیزیک 3</li>
+                  <li>ادبیات فارسی</li>
+                  <li>ریاضی 2</li>
+                  <li>فیزیک 3</li>
+                  <li>ادبیات فارسی</li>
+                  <li>ریاضی 2</li>
+                  <li>فیزیک 3</li>
+                  <li>ادبیات فارسی</li>
+                </ul>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tabs-profile"
+                role="tabpanel"
+                aria-labelledby="tabs-profile-tab"
+              >
+                Tab 2 content
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tabs-messages"
+                role="tabpanel"
+                aria-labelledby="tabs-profile-tab"
+              >
+                Tab 3 content
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tabs-contact"
+                role="tabpanel"
+                aria-labelledby="tabs-contact-tab"
+              >
+                Tab 4 content
+              </div>
+            </div>
+          </div>
+
+          <div class="class_suggestedPack">
+            <h3>بسته های پیشنهادی هفته</h3>
+            <div class="class_cards-wrapper">
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="class_suggestedPack">
+            <h3>بسته های پیشنهادی</h3>
+            <div class="class_cards-wrapper">
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+              <div class="class_card">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmarks-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"
+                    />
+                    <path
+                      d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"
+                    />
+                  </svg>
+                </div>
+                <div class="image">
+                  <img src="../assets/Cell-Biology 3.png" alt="image" />
+                </div>
+                <div class="content">
+                  <h4>بسته ریاضیات مهندسی</h4>
+                  <p>فصل اول: انتگرال</p>
+                  <p>درس: چهارم</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu_container">
+        <div class="menu_items">
+          <div class="menu_sidebar-logo">
+            <p>دانا جو</p>
+          </div>
+          <ul>
+            <li>
+              <div class="wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-menu-button-wide"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v2A1.5 1.5 0 0 1 14.5 5h-13A1.5 1.5 0 0 1 0 3.5v-2zM1.5 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-13z"
+                  />
+                  <path
+                    d="M2 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm10.823.323-.396-.396A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"
+                  />
+                </svg>
+                <p>مشاوره</p>
+              </div>
+            </li>
+
+            <li class="selected">
+              <div class="wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-list text-[#3356A3]"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                  />
+                </svg>
+                <p>کلاس</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-cast text-[#B8D1E3]"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="m7.646 9.354-3.792 3.792a.5.5 0 0 0 .353.854h7.586a.5.5 0 0 0 .354-.854L8.354 9.354a.5.5 0 0 0-.708 0z"
+                  />
+                  <path
+                    d="M11.414 11H14.5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h3.086l-1 1H1.5A1.5 1.5 0 0 1 0 10.5v-7A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v7a1.5 1.5 0 0 1-1.5 1.5h-2.086l-1-1z"
+                  />
+                </svg>
+                <p>جدول</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-border-style text-[#B8D1E3]"
+                  class="bi bi-calendar3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"
+                  />
+                  <path
+                    d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                  />
+                </svg>
+                <p>آزمون</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-border-style text-[#B8D1E3]"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm8 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-4 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm8 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-4-4a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-1z"
+                  />
+                </svg>
+                <p>داشبورد</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="contact-us">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="35"
+              height="35"
+              fill="currentColor"
+              class="bi bi-headset text-[#F28665]"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
