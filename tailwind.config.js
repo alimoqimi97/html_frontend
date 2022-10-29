@@ -15,7 +15,9 @@ module.exports = {
     },
     extend: {
       boxShadow: {
-        'card-shadow': '-1px 2px 6px 0px rgba(212,226,237,1)'
+        'card-shadow': '-1px 2px 6px 0px rgba(212,226,237,1)',
+        'menu-shadow-top': '0 -20px 0 10px rgba(251, 251, 251 ,1)',
+        'menu-shadow-bottom': '0 20px 0 10px rgba(251, 251, 251 ,1)',
       },
       height: {
         264: "66rem",
