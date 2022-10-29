@@ -1455,7 +1455,7 @@ body.PACKAGE-body {
 @media (min-width: 1442px) {
   body.PACKAGE-body {
     height: 100vh;
-    width: 1442px;
+    width: 100vw;
   }
 }
 
@@ -1488,7 +1488,6 @@ section.PACKAGE-main-content {
 
 @media (min-width: 1442px) {
   section.PACKAGE-main-content {
-    margin-left: 2.8125rem;
     width: 72.19rem;
   }
 }
