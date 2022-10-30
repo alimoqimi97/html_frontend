@@ -626,7 +626,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-user-comments .PACKAGE-comment{
-  @apply w-full bg-white rounded-[0.3125rem] pt-3 pr-[1.0625rem] pb-[0.8125rem] pl-3 md:pr-[0.875rem] md:pl-[1.625rem] lg:pt-3 lg:pr-5 lg:pl-[2.4375rem] lg:pb-[0.8125rem] xl:pr-6 xl:pl-[2.4375rem];
+  @apply w-full bg-white rounded-[0.3125rem] pt-3 pr-[1.0625rem] pb-[0.8125rem] pl-3  md:pr-[0.875rem] md:pl-[1.625rem] lg:pt-3 lg:pr-5 lg:pl-[2.4375rem] lg:pb-[0.8125rem] xl:pr-6 xl:pl-[2.4375rem];
   box-shadow: -4px 3px 0px rgba(212, 226, 237, 0.25), 0px -1px 28px #D4E2ED;
 }
 
@@ -646,7 +646,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comment-content {
-  @apply not-italic font-light text-[0.711rem] leading-[1.125rem] xl:text-[0.7125rem] text-black text-justify ;
+  @apply not-italic font-light pl-[0.3125rem] sm:pl-0 text-[0.711rem] leading-[1.125rem] xl:text-[0.7125rem] text-black text-justify ;
 }
 
 .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions {
@@ -658,18 +658,18 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-reply span img{
-  @apply md:w-[0.57rem] md:h-[0.57rem];
+  @apply w-[0.57rem] h-[0.57rem];
 }
 
 .PACKAGE-comments-actions .PACKAGE-like {
   @apply  bg-white;
 }
 .PACKAGE-comments-actions .PACKAGE-like img {
-  @apply md:w-[1.1275rem] md:h-[0.885625rem] lg:h-[1.145625rem];
+  @apply w-[1.375rem] h-[1.0625rem] lg:h-[1.375rem];
 }
 
 .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-like-count{
-  @apply not-italic font-normal text-[0.75rem] leading-[1.1875rem] text-right text-[#195E8E] md:text-[0.75rem] md:leading-[1.1625rem] lg:leading-[1.1875rem];
+  @apply not-italic font-normal text-[0.75rem] leading-[1.1875rem] text-right text-[#195E8E] md:text-[0.75rem] md:leading-[1.1875rem] lg:leading-[1.1875rem];
 }
 
 .PACKAGE-test .PACKAGE-options {
