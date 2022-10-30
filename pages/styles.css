@@ -262,12 +262,12 @@ body.PACKAGE-body {
 }
 
 section.PACKAGE-main-content {
-  @apply w-full xl:w-[72.19rem] max-w-[90.125rem]  px-2 md:w-[91.9%] lg:w-[93.35%] md:mx-auto md:px-0 ;
+  @apply w-full mt-4 sm:mt-[1.3125rem] md:mt-4 lg:mt-3 xl:mt-[1.1875rem] xl:w-[72.19rem] max-w-[90.125rem]  px-2 md:w-[91.9%] lg:w-[93.35%] md:mx-auto md:px-0 ;
   direction: rtl;
 }
 
 section.PACKAGE-main-content .PACKAGE-header {
-  @apply bg-white mb-[1.3125rem] h-[4.0625rem] md:mb-[25px] lg:mb-[30px] mx-auto px-4 w-full xl:h-[5.375rem] lg:pr-[1.439375rem] rounded-[0.625rem] shadow-[inset_-1px_3px_3px_#D4E2ED] flex flex-row justify-between items-center xl:mb-[1.25rem];
+  @apply bg-white mb-[1.3125rem] h-[4.0625rem] md:mb-[25px] lg:mb-[30px] mx-auto px-4 w-full xl:h-[5.375rem] lg:pr-[1.439375rem] rounded-[0.625rem] shadow-[inset_-1px_3px_3px_#D4E2ED] flex flex-row justify-between items-center xl:mb-[3.125rem];
 }
 
 .PACKAGE-lesson-book-pages {
@@ -275,7 +275,7 @@ section.PACKAGE-main-content .PACKAGE-header {
 }
 
 .PACKAGE-lesson-book-pages-logo {
-  @apply w-[0.875rem] h-[1.125rem] sm:w-[1.5rem] sm:h-[1.5rem]   xl:w-[0.875rem] xl:h-[1.125rem];
+  @apply w-[1.5rem] h-[1.5rem] sm:w-[1.5rem] sm:h-[1.5rem] xl:w-[1.5rem] xl:h-[1.5rem];
 }
 
 .PACKAGE-logo {
@@ -319,7 +319,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-tab {
-  @apply inline-block rounded-t-lg md:rounded-t-[0.4375rem] xl:rounded-t-[0.625rem] hover:text-gray-600 hover:bg-gray-50  ;
+  @apply inline-block rounded-t-[5px] md:rounded-t-[0.4375rem] lg:rounded-t-[8px] xl:rounded-t-[0.625rem] hover:text-gray-600 hover:bg-gray-50  ;
 }
 
 .PACKAGE-tabs .PACKAGE-category li {
@@ -327,16 +327,18 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-tabs .PACKAGE-category li a {
-  @apply w-full xl:flex xl:gap-x-[1.375rem] sm:h-[1.875rem] md:h-[2.1875rem] lg:h-10 xl:h-[3.4375rem] not-italic font-normal text-[0.8125rem] leading-[1.125rem] md:text-[1.0625rem] md:leading-6 lg:text-[1.25rem] lg:leading-[1.75rem] xl:text-[1.375rem] xl:leading-[1.9375rem] text-center text-[#4182B4] p-[0.2rem] flex justify-center items-center h-[1.5625rem] border-solid border-[0.025rem] border-[#4182B4] border-b-transparent;
+  @apply w-full xl:flex xl:gap-x-[1.375rem] sm:h-[1.875rem] md:h-[2.1875rem] lg:h-10 xl:h-[3.4375rem] not-italic font-normal text-[0.8125rem] leading-[1.125rem] md:text-[1.0625rem] md:leading-6 lg:text-base lg:leading-[1.75rem] xl:text-[1.375rem] xl:leading-[1.9375rem] text-center text-[#4182B4] p-[0.2rem] flex justify-center items-center h-[1.5625rem] border-solid border-[0.025rem] border-[#4182B4] border-b-transparent;
+  /* @apply w-full scale-y-110 -translate-y-0.75 xl:flex xl:gap-x-[1.375rem] not-italic font-normal text-[0.8125rem] leading-[1.125rem] md:text-[1.0625rem] md:leading-6 lg:text-base lg:leading-[1.75rem] xl:text-[1.375rem] xl:leading-[1.9375rem] text-center text-[#4182B4] p-[0.2rem] flex justify-center items-center h-[1.5625rem] border-solid border-[0.025rem] border-[#4182B4] border-b-transparent; */
 }
 
 .PACKAGE-tabs .PACKAGE-category li a.PACKAGE-active {
-  @apply text-white rounded-t-lg p-[0.2rem] bg-[#1263A1] h-full sm:h-[2.1875rem] xl:h-[3.75rem] md:h-10 lg:h-[2.8125rem] md:font-bold border-solid border border-[#1263A1] lg:text-[1.25rem] lg:leading-[1.75rem];
+  @apply text-white rounded-t-lg p-[0.2rem] bg-[#1263A1] h-full sm:h-[2.1875rem] xl:h-[3.75rem] md:h-10 lg:h-[2.8125rem] md:font-bold border-solid border border-[#1263A1] lg:text-base lg:leading-[1.75rem] xl:text-[1.375rem] xl:leading-[1.925rem];
+  /* @apply text-white scale-y-110 -translate-y-0.75 rounded-t-lg p-[0.2rem] bg-[#1263A1] h-full md:font-bold border-solid border border-[#1263A1] lg:text-base lg:leading-[1.75rem] xl:text-[1.375rem] xl:leading-[1.925rem]; */
 
 }
 
 .PACKAGE-package-contents {
-  @apply -mt-[1px] border-solid border-[0.03125rem] border-[#4182B4] rounded-[0.03125rem] lg:mx-[0.0625rem];
+  @apply -mt-[1px] border-solid border-[0.03125rem] border-[#4182B4] rounded-b-[5px] lg:mx-[0.0625rem];
   box-shadow: 0px 8.00693px 0px #D4E2ED, inset 0px 3.0026px 3.0026px #D4E2ED;
 }
 
@@ -374,7 +376,7 @@ p.PACKAGE-package-name {
 }
 
 .carousel-inner #start-video , #continue-video {
-  @apply absolute left-[41%] top-[45%] md:w-[13%] lg:w-[11.63%] xl:w-[11.21%];
+  @apply absolute left-[41%] top-[45%] md:w-[13%] lg:w-[11.63%] xl:w-[2.6875rem];
 }
 
 .carousel-open:checked+.carousel-item {
@@ -427,7 +429,7 @@ p.PACKAGE-package-name {
 }
 
 #carousel-1:checked~.control-1 img {
-  @apply inline-block md:w-[0.25] md:h-[0.51rem] lg:w-[0.375rem] lg:h-3;
+  @apply inline-block  md:w-[0.25] md:h-[0.51rem] lg:w-[0.375rem] lg:h-3;
 }
 
 #carousel-1:checked~.control-1,
@@ -490,7 +492,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-package-details #downloadPackage{
-  @apply absolute left-0 md:w-[2.2rem] lg:w-[2.631875rem] lg:h-[2.631875rem];
+  @apply absolute left-0 w-12 h-12 md:w-9 md:h-9 lg:w-[2.6875rem] lg:h-[2.6875rem];
 }
 
 .PACKAGE-package-details .PACKAGE-title {
@@ -502,11 +504,11 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-package-details #duration {
-  @apply not-italic font-normal lg:gap-x-[0.536875rem] md:gap-x-[0.43rem]  text-[0.66rem]  leading-[1.125rem] md:text-[0.47rem] md:leading-[0.8125rem] lg:text-[0.6875rem] lg:leading-[1.165625rem] xl:leading-[1.1875rem] text-[#062D3E] flex text-right items-center;
+  @apply not-italic font-normal gap-x-[0.504375rem] lg:gap-x-[0.536875rem] md:gap-x-[0.43rem]  text-[0.66rem]  leading-[1.125rem] md:text-[0.47rem] md:leading-[0.8125rem] lg:text-[0.6875rem] lg:leading-[1.165625rem] xl:leading-[1.1875rem] text-[#062D3E] flex text-right items-center;
 }
 
 .PACKAGE-package-details #duration #clock img{
-  @apply w-[0.7125rem] h-[0.7125rem] md:w-[0.51rem] lg:w-[0.745rem] lg:h-[0.745rem];
+  @apply w-[0.7175rem] h-[0.7175rem] md:w-[7.91px] lg:w-[11.48px] lg:h-[0.745rem];
 }
 
 .PACKAGE-package-contents .PACKAGE-test-station {
@@ -518,7 +520,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-package-contents .PACKAGE-test-station img{
-  @apply mb-[1.25rem] w-[11%] max-w-[2.203125rem] md:max-w-[2.631875rem] md:w-[6.5%] md:mb-[1.92rem] lg:w-[2.631875rem] lg:h-[2.631875rem] lg:mb-[1.375rem] xl:mb-[0.966875rem];
+  @apply mb-[1.25rem] w-12 max-w-[3rem] md:max-w-[2.631875rem] md:w-[2.25rem]  md:mb-[1.92rem] lg:w-[2.6875rem] lg:mb-[1.375rem] xl:mb-[0.966875rem];
 }
 
 .PACKAGE-package-contents .PACKAGE-test-station h1 {
@@ -530,10 +532,11 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-weekly-recommended-packages-wrapper {
-  @apply mt-8
+  @apply mt-[1.375rem] sm:mt-[1.6875rem] md:mt-8 lg:mt-[2.8125rem] xl:mt-[2.9375rem];
 }
-.PACKAGE-weekly-recommended-packages-wrapper h1 {
-  @apply not-italic font-normal text-[0.9375rem] leading-[1.4375rem]  md:text-[1.25rem] md:leading-[1.9375rem] text-[#007BDA] my-2 md:my-[1.1125rem] lg:my-[2.325rem] xl:my-[2.0875rem];
+
+.PACKAGE-weekly-recommended-packages-wrapper #recommended-package-title {
+  @apply not-italic font-normal text-[0.9375rem] leading-[1.4375rem]  md:text-[1.25rem] md:leading-[1.9375rem] text-[#007BDA] mb-3 md:mb-[1.3125rem] lg:mb-[2.625rem] xl:mb-[2.1875rem];
 }
 
 .PACKAGE-weekly-recommended-packages .PACKAGE-recommended-packages {
@@ -542,7 +545,7 @@ p.PACKAGE-package-name {
 
 .PACKAGE-weekly-recommended-packages .PACKAGE-recommended-packages .PACKAGE-package-card {
   /* @apply bg-white border-solid border-[#EDF0F1] max-w-[10.25rem] grow md:grow-0 md:w-[19.86%] lg:w-[13.87%] xl:w-[9.33%] shadow-card-shadow border-[0.340678px] rounded-[0.35rem] w-[38.66%] pb-[0.78rem] pt-[0.375rem] xl:pb-[0.789375rem]; */
-  @apply bg-white border-solid  border-[#EDF0F1] md:grow-0 w-[8.25rem]  shadow-card-shadow border-[0.340678px] rounded-[0.35rem] pb-[0.78rem] pt-[0.375rem] xl:pb-[0.789375rem];
+  @apply bg-white border-solid  border-[#EDF0F1] md:grow-0 w-[8.30375rem] shadow-card-shadow border-[0.340678px] rounded-[0.35rem] pb-[0.78rem] pt-[0.375rem] xl:pb-[0.789375rem];
 }
 .PACKAGE-weekly-recommended-packages .PACKAGE-recommended-packages .PACKAGE-package-card img {
   @apply w-[15%] mr-[0.34rem] mb-[0.83rem] md:mr-[0.34rem] lg:mr-[0.349375rem] lg:mb-[0.8225rem] xl:mb-[0.83rem] xl:w-[1.205rem] xl:h-[1.240625rem];
@@ -564,8 +567,8 @@ p.PACKAGE-package-name {
   @apply w-full mt-[1.8125rem] md:mt-[2.875rem] lg:mt-[2.3125rem] xl:mt-[3.5625rem];
 }
 
-.PACKAGE-your-videos h1 {
-  @apply not-italic font-normal text-[0.9375rem] leading-[1.4375rem] md:text-xl md:leading-[1.9375rem] text-[#195E8E] lg:mb-[2.0625rem];
+.PACKAGE-your-videos #your-videos-title {
+  @apply not-italic font-normal text-xl leading-[1.9375rem] mb-[1.6875rem] md:leading-[1.9375rem] md:mb-[2.0625rem] text-[#195E8E] lg:mb-[2.0625rem];
 }
 .PACKAGE-video-list {
   @apply flex gap-x-[1.9375rem] md:gap-x-8 overflow-x-scroll;
@@ -583,7 +586,8 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-send-file .PACKAGE-select-file-text {
-  @apply w-[235px] h-16 md:w-[53.6%];
+  /* @apply w-[235px] h-16 md:w-[53.6%]; */
+  @apply h-16 md:w-[53.6%];
 }
 
 .PACKAGE-send-file .PACKAGE-select-file-text h1 {
@@ -605,7 +609,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-point-of-view h1{
-  @apply not-italic font-normal text-xl leading-[1.9375rem] text-justify text-[#195E8E] mb-[1.8125rem];
+  @apply not-italic font-normal text-[0.9375rem] sm:text-xl sm:leading-[1.9375rem] sm:mb-[1.8125rem] leading-[1.4375rem] text-justify text-[#195E8E] mb-[2.3125rem];
 }
 
 .PACKAGE-point-of-view  #pointOfView {
@@ -650,7 +654,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-reply{
-  @apply flex justify-between gap-x-[0.34rem] md:gap-x-[0.348125rem] lg:gap-x-[0.348125rem] items-center not-italic font-normal text-xs leading-[1.1875rem] md:text-[0.75rem] bg-white text-right text-[#FF630C];
+  @apply flex justify-between gap-x-[0.34rem] md:gap-x-[0.348125rem] lg:gap-x-[0.348125rem] items-center not-italic font-normal text-[0.75rem] leading-[1.1875rem] md:text-[0.75rem] bg-white text-right text-[#FF630C];
 }
 
 .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-reply span img{
@@ -665,7 +669,7 @@ p.PACKAGE-package-name {
 }
 
 .PACKAGE-user-comments .PACKAGE-comment .PACKAGE-comments-actions .PACKAGE-like-count{
-  @apply not-italic font-normal text-xs leading-[1.1875rem] text-right text-[#195E8E] md:text-[0.75rem] md:leading-[1.1625rem] lg:leading-[1.1875rem];
+  @apply not-italic font-normal text-[0.75rem] leading-[1.1875rem] text-right text-[#195E8E] md:text-[0.75rem] md:leading-[1.1625rem] lg:leading-[1.1875rem];
 }
 
 .PACKAGE-test .PACKAGE-options {
