@@ -267,7 +267,7 @@ section.PACKAGE-main-content {
 }
 
 section.PACKAGE-main-content .PACKAGE-header {
-  @apply bg-white mb-[1.3125rem] h-[4.0625rem] md:mb-[25px] lg:mb-[30px] mx-auto px-4 w-full xl:h-[5.375rem] lg:pr-[1.439375rem] rounded-[0.625rem] shadow-[inset_-1px_3px_3px_#D4E2ED] flex flex-row justify-between items-center xl:mb-[3.125rem];
+  @apply bg-white mb-[1.3125rem] h-[4.0625rem] md:mb-[25px] lg:mb-[30px] mx-auto px-4 w-full lg:h-[5.375rem] lg:pr-[1.439375rem] rounded-[0.625rem] shadow-[inset_-1px_3px_3px_#D4E2ED] flex flex-row justify-between items-center xl:mb-[3.125rem];
 }
 
 .PACKAGE-lesson-book-pages {
