@@ -1553,13 +1553,13 @@ section.PACKAGE-main-content .PACKAGE-header {
 }
 
 .PACKAGE-logo {
-  height: 2rem;
-  width: 2.125rem;
+  height: 2.1875rem;
+  width: 34.23px;
 }
 
 @media (min-width: 744px) {
   .PACKAGE-logo {
-    height: 2.4925rem;
+    height: 2.625rem;
     width: 2.625rem;
   }
 }
@@ -1574,7 +1574,7 @@ section.PACKAGE-main-content .PACKAGE-header {
 @media (min-width: 1442px) {
   .PACKAGE-logo {
     height: 2.765rem;
-    width: 2.68rem;
+    width: 2.685625rem;
   }
 }
 
@@ -2089,22 +2089,29 @@ p.PACKAGE-package-name {
   position: absolute;
   left: 41%;
   top: 45%;
+  height: 3rem;
+  width: 3rem;
 }
 
 @media (min-width: 744px) {
   .carousel-inner #start-video , #continue-video {
-    width: 13%;
+    height: 10.66%;
+    width: 13.9%;
+    min-width: 2.25rem;
   }
 }
 
 @media (min-width: 980px) {
   .carousel-inner #start-video , #continue-video {
-    width: 11.63%;
+    height: 12.73%;
+    width: 11.88%;
+    min-width: 2.6875rem;
   }
 }
 
 @media (min-width: 1442px) {
   .carousel-inner #start-video , #continue-video {
+    height: 2.6875rem;
     width: 2.6875rem;
   }
 }
@@ -2371,16 +2378,24 @@ p.PACKAGE-package-name {
   width: 0.7175rem;
 }
 
+@media (min-width: 480px) {
+  .PACKAGE-package-details #duration #clock img {
+    height: 0.745rem;
+    width: 0.745rem;
+  }
+}
+
 @media (min-width: 744px) {
   .PACKAGE-package-details #duration #clock img {
-    width: 7.91px;
+    height: 8.21px;
+    width: 8.21px;
   }
 }
 
 @media (min-width: 980px) {
   .PACKAGE-package-details #duration #clock img {
-    height: 0.745rem;
-    width: 11.48px;
+    height: 11.92px;
+    width: 11.92px;
   }
 }
 
@@ -2422,13 +2437,15 @@ p.PACKAGE-package-name {
 
 .PACKAGE-package-contents .PACKAGE-test-station img {
   margin-bottom: 1.25rem;
+  height: 3rem;
   width: 3rem;
   max-width: 3rem;
 }
 
 @media (min-width: 744px) {
   .PACKAGE-package-contents .PACKAGE-test-station img {
-    margin-bottom: 1.92rem;
+    margin-bottom: 1.875rem;
+    height: 2.25rem;
     width: 2.25rem;
     max-width: 2.631875rem;
   }
@@ -2437,6 +2454,7 @@ p.PACKAGE-package-name {
 @media (min-width: 980px) {
   .PACKAGE-package-contents .PACKAGE-test-station img {
     margin-bottom: 1.375rem;
+    height: 2.6875rem;
     width: 2.6875rem;
   }
 }
@@ -3419,5 +3437,13 @@ p.PACKAGE-package-name {
 @media (min-width: 1442px) {
   .xl\:block {
     display: block;
+  }
+
+  .xl\:h-\[33px\] {
+    height: 33px;
+  }
+
+  .xl\:w-\[32\.05px\] {
+    width: 32.05px;
   }
 }
